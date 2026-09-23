@@ -18,7 +18,7 @@
 [ext_resource type="Texture2D" uid="uid://b63e6wk3uwiiy" path="res://Assets/Placeholder_texture.png" id="12_tingy"]
 [ext_resource type="PackedScene" uid="uid://c6cm6gftjmnjt" path="res://Scenes/LevelElements/End/LevelEnder.tscn" id="14_tingy"]
 [ext_resource type="PackedScene" uid="uid://ka7qfxbhwmm6" path="res://Scenes/LevelElements/vine_texture.tscn" id="15_0ldtj"]
-[ext_resource type="PackedScene" uid="uid://c5r5s1p4aded7" path="res://Scenes/HUD/Menus/level_select.tscn" id="19_cdnyh"]
+[ext_resource type="PackedScene" uid="uid://ckat8kuikd6kg" path="res://Scenes/HUD/Menus/main_menu.tscn" id="19_cdnyh"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cdnyh"]
 texture = ExtResource("1_xyo2o")
@@ -80,7 +80,7 @@ point_count = 2
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2vgao"]
 size = Vector2(300, 20)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_rm656"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cdnyh"]
 resource_local_to_scene = true
 size = Vector2(57.657593, 19.200008)
 
@@ -335,7 +335,7 @@ scale = Vector2(2.22, 10)
 
 [node name="CollisionShape2D" parent="Right/ClimbableWall/StaticBody2D" parent_id_path=PackedInt32Array(764220690, 328529267) index="0" unique_id=1167529734]
 position = Vector2(3.6036377, 3.1999817)
-shape = SubResource("RectangleShape2D_rm656")
+shape = SubResource("RectangleShape2D_cdnyh")
 
 [node name="Sprite2D" parent="Right/ClimbableWall/StaticBody2D" parent_id_path=PackedInt32Array(764220690, 328529267) index="1" unique_id=130183412]
 visible = false

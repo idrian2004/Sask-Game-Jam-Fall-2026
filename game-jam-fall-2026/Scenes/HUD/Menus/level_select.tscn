@@ -91,5 +91,3 @@ theme_override_font_sizes/font_size = 32
 text = "Level 3-2"
 script = ExtResource("2_7c3he")
 next_scene = ExtResource("4_52g27")
-
-[connection signal="pressed" from="Back" to="Back" method="_on_pressed"]

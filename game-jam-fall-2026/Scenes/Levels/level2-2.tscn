@@ -1007,19 +1007,17 @@ sources/2 = SubResource("TileSetAtlasSource_3y4xe")
 
 [node name="level 2-2" type="Node2D" unique_id=163591952]
 
-[node name="Player2" parent="." unique_id=1438121118 node_paths=PackedStringArray("respawn_point", "abilities") instance=ExtResource("1_khr7u")]
+[node name="Player2" parent="." unique_id=1438121118 node_paths=PackedStringArray("abilities") instance=ExtResource("1_khr7u")]
 position = Vector2(-216, 0)
-respawn_point = NodePath("")
 is_player_2 = true
-abilities = [NodePath("PomogranateRoot"), NodePath("GlidingLeaf"), NodePath("")]
+abilities = [NodePath("PomogranateRoot"), NodePath("GlidingLeaf")]
 
 [node name="PomogranateRoot" parent="Player2" unique_id=821630594 instance=ExtResource("2_vm8nu")]
 
 [node name="GlidingLeaf" parent="Player2" unique_id=2085603314 instance=ExtResource("3_ye5ba")]
 
-[node name="Player1" parent="." unique_id=1397274368 node_paths=PackedStringArray("respawn_point", "abilities") instance=ExtResource("1_khr7u")]
+[node name="Player1" parent="." unique_id=1397274368 node_paths=PackedStringArray("abilities") instance=ExtResource("1_khr7u")]
 position = Vector2(352, 0)
-respawn_point = NodePath("")
 abilities = [NodePath("Pomogranate"), NodePath("TogglePlatforms"), NodePath("WallClimb")]
 
 [node name="Pomogranate" parent="Player1" unique_id=459060717 instance=ExtResource("4_w6h3g")]

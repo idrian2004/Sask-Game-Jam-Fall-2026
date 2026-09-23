@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://dobybr281q84l"]
 
 [ext_resource type="PackedScene" uid="uid://c6cm6gftjmnjt" path="res://Scenes/LevelElements/End/LevelEnder.tscn" id="1_j6i6y"]
-[ext_resource type="PackedScene" uid="uid://c5r5s1p4aded7" path="res://Scenes/HUD/Menus/level_select.tscn" id="2_26o3t"]
+[ext_resource type="PackedScene" uid="uid://ent52kxlw402" path="res://Scenes/Levels/level3-2.tscn" id="2_26o3t"]
 [ext_resource type="Texture2D" uid="uid://b63e6wk3uwiiy" path="res://Assets/Placeholder_texture.png" id="2_lal7v"]
 [ext_resource type="PackedScene" uid="uid://doop567ni7qgo" path="res://Scenes/Entities/Player.tscn" id="2_r53e0"]
 [ext_resource type="PackedScene" uid="uid://csfo47hnrufte" path="res://Scenes/LevelElements/Walls/climbable_wall.tscn" id="3_6mr0w"]
